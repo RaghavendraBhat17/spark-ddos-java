@@ -18,3 +18,8 @@ gradle clean build
 ./spark-ddos-java <ZK Quorum> <group id> <topic name>
 Example: ./spark-ddos-java localhost:2181 1 test-topic
 ```
+
+### Note
+
+- This application was tested on Spark 1.6.0 with Hadoop 2.6.0-cdh5.13.0 on cloudera-quickstart-vm-5.13.0
+- Kafka version used kafka_2.10-0.10.0.0
